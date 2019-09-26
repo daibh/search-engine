@@ -1,0 +1,50 @@
+{
+  "name": "search-engine",
+  "version": "0.0.1",
+  "description": "A simple search engine associate rest api to search. This lib also support paginate with lazy load or eager load api",
+  "author": {
+    "name": "oniwa",
+    "email": "oniwa1102@gmail.com",
+    "url": "https://huudai.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daibh/oNiwa.git"
+  },
+  "bugs": {
+    "email": "oniwa1102@gmail.com",
+    "url": "https://github.com/daibh/oNiwa/issues"
+  },
+  "homepage": "https://huudai.com/search-engine",
+  "keywords": [
+    "angular",
+    "autocomplete",
+    "ng-select",
+    "typedhead",
+    "search",
+    "search-engine",
+    "search engine",
+    "auto complete",
+    "typescript",
+    "javascript",
+    "directive"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0"
+  },
+  "main": "bundles/search-engine.umd.js",
+  "module": "fesm5/search-engine.js",
+  "es2015": "fesm2015/search-engine.js",
+  "esm5": "esm5/search-engine.js",
+  "esm2015": "esm2015/search-engine.js",
+  "fesm5": "fesm5/search-engine.js",
+  "fesm2015": "fesm2015/search-engine.js",
+  "typings": "search-engine.d.ts",
+  "metadata": "search-engine.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
